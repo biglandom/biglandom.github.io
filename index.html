@@ -1,0 +1,1462 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>91九色丨蝌蚪丨老版入口 - 官方视频门户 | 原创高清内容生态</title>
+<meta name="description" content="91九色丨蝌蚪丨老版入口官方网站，专注原创高清视频内容生态，汇聚多元创作者与精品企划，持续运营的垂直视频品牌平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23122a4a'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23f0b429' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23f0b429'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jz-ink:#101a2b;
+  --jz-ink-soft:#26364f;
+  --jz-navy:#122a4a;
+  --jz-navy-deep:#0b1c33;
+  --jz-gold:#f0b429;
+  --jz-gold-soft:#ffd977;
+  --jz-line:#dfe5ee;
+  --jz-bg:#f5f7fb;
+  --jz-card:#ffffff;
+  --jz-muted:#5d6b80;
+  --jz-teal:#1f9c8f;
+  --jz-radius:16px;
+  --jz-shadow:0 10px 30px rgba(16,26,43,.08);
+  --jz-nav-h:64px;
+  --jz-bar-h:44px;
+  --jz-sticky:calc(var(--jz-nav-h) + var(--jz-bar-h));
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--jz-ink);
+  background:var(--jz-bg);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+section{scroll-margin-top:calc(var(--jz-sticky) + 16px)}
+.jz-shell{width:min(1180px,92vw);margin:0 auto}
+
+/* ===== 吸顶公告条 + 页头 ===== */
+.jz-sticky-wrap{position:sticky;top:0;z-index:80}
+.jz-ticker{
+  height:var(--jz-bar-h);
+  background:var(--jz-navy-deep);
+  color:#cfd9e8;
+  display:flex;align-items:center;
+  overflow:hidden;
+  font-size:13px;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.jz-ticker-inner{display:flex;align-items:center;gap:14px;width:min(1180px,92vw);margin:0 auto;min-width:0}
+.jz-ticker-badge{
+  flex:0 0 auto;background:var(--jz-gold);color:#12100a;
+  font-weight:700;font-size:11px;letter-spacing:.12em;
+  padding:2px 8px;border-radius:4px;
+}
+.jz-ticker-track{overflow:hidden;flex:1 1 auto;min-width:0;white-space:nowrap;position:relative}
+.jz-ticker-move{display:inline-block;padding-left:100%;animation:jzMarquee 26s linear infinite}
+.jz-ticker-move b{color:var(--jz-gold-soft);font-weight:600}
+@keyframes jzMarquee{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+.jz-header{
+  height:var(--jz-nav-h);
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--jz-line);
+  display:flex;align-items:center;
+}
+.jz-header-row{display:flex;align-items:center;gap:22px;width:min(1180px,92vw);margin:0 auto}
+.jz-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.jz-logo-mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--jz-navy),#25507f);display:grid;place-items:center}
+.jz-logo-mark span{width:14px;height:14px;border:3px solid var(--jz-gold);border-radius:50%;display:block}
+.jz-logo-text{font-weight:800;font-size:17px;letter-spacing:.02em;color:var(--jz-navy)}
+.jz-logo-text em{font-style:normal;color:var(--jz-gold);}
+.jz-nav{display:flex;gap:6px;flex:1 1 auto;min-width:0}
+.jz-nav a{
+  font-size:14px;color:var(--jz-ink-soft);padding:7px 12px;border-radius:9px;
+  transition:background .2s,color .2s;white-space:nowrap;
+}
+.jz-nav a:hover{background:#eef2f8;color:var(--jz-navy)}
+.jz-search{position:relative;flex:0 1 240px;min-width:0}
+.jz-search input{
+  width:100%;height:38px;border-radius:10px;border:1px solid var(--jz-line);
+  padding:0 36px 0 13px;font-size:13px;background:#f8fafd;color:var(--jz-ink);outline:none;
+  transition:border-color .2s,box-shadow .2s;
+}
+.jz-search input:focus{border-color:var(--jz-navy);box-shadow:0 0 0 3px rgba(18,42,74,.12);background:#fff}
+.jz-search button{
+  position:absolute;right:4px;top:4px;width:30px;height:30px;border:none;border-radius:8px;
+  background:var(--jz-navy);color:#fff;font-size:14px;display:grid;place-items:center;
+}
+.jz-search-hint{
+  position:absolute;left:0;right:0;top:44px;background:#fff;border:1px solid var(--jz-line);
+  border-radius:12px;box-shadow:var(--jz-shadow);padding:8px;font-size:13px;display:none;z-index:90;
+}
+.jz-search-hint.on{display:block}
+.jz-search-hint p{padding:6px 8px;color:var(--jz-muted);border-radius:8px}
+.jz-search-hint p:hover{background:#f1f5fb;color:var(--jz-navy);cursor:pointer}
+.jz-burger{
+  display:none;border:1px solid var(--jz-line);background:#fff;border-radius:10px;
+  width:40px;height:38px;font-size:18px;color:var(--jz-navy);
+}
+.jz-mobile-panel{display:none;background:#fff;border-bottom:1px solid var(--jz-line)}
+.jz-mobile-panel.on{display:block}
+.jz-mobile-panel a{display:block;padding:11px 4vw;font-size:15px;border-bottom:1px solid #f1f4f9;color:var(--jz-ink-soft)}
+
+/* ===== 首屏：全幅主视觉背景 + 浮动文字 ===== */
+.jz-hero{position:relative;overflow:hidden;background:var(--jz-navy-deep);color:#fff}
+.jz-hero-bg{position:absolute;inset:0}
+.jz-hero-bg svg{width:100%;height:100%;display:block}
+.jz-hero::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,rgba(8,18,33,.94) 0%,rgba(8,18,33,.82) 42%,rgba(8,18,33,.34) 100%);
+}
+.jz-hero-inner{position:relative;z-index:2;width:min(1180px,92vw);margin:0 auto;padding:74px 0 68px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:40px;align-items:end}
+.jz-hero-copy{min-width:0}
+.jz-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--jz-gold-soft);border:1px solid rgba(240,180,41,.4);
+  padding:5px 12px;border-radius:99px;margin-bottom:20px;background:rgba(240,180,41,.08);
+}
+.jz-eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--jz-gold);display:inline-block}
+.jz-hero h1{
+  font-size:clamp(2.1rem,4.6vw,3.5rem);
+  line-height:1.14;letter-spacing:-.01em;font-weight:900;
+  margin-bottom:18px;word-break:break-word;
+}
+.jz-hero h1 span{color:var(--jz-gold)}
+.jz-hero-lead{font-size:clamp(.95rem,1.3vw,1.08rem);color:#c9d5e5;max-width:34em;margin-bottom:26px}
+.jz-hero-lead strong{color:#fff;font-weight:700}
+.jz-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px}
+.jz-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:11px;
+  padding:11px 22px;font-size:14px;font-weight:700;border:1px solid transparent;
+  transition:transform .18s,box-shadow .18s,background .18s,color .18s;
+}
+.jz-btn:active{transform:translateY(1px)}
+.jz-btn-primary{background:var(--jz-gold);color:#181200;box-shadow:0 8px 22px rgba(240,180,41,.28)}
+.jz-btn-primary:hover{background:var(--jz-gold-soft);box-shadow:0 10px 26px rgba(240,180,41,.4)}
+.jz-btn-ghost{background:transparent;border-color:rgba(255,255,255,.34);color:#fff}
+.jz-btn-ghost:hover{background:rgba(255,255,255,.12)}
+.jz-hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;border-top:1px solid rgba(255,255,255,.16);padding-top:22px}
+.jz-hero-stat b{display:block;font-size:clamp(1.3rem,2.4vw,1.7rem);color:#fff;font-weight:900;line-height:1.2}
+.jz-hero-stat b em{font-style:normal;font-size:.62em;color:var(--jz-gold);margin-left:2px}
+.jz-hero-stat span{font-size:12.5px;color:#9fb0c8;display:block;margin-top:3px}
+.jz-hero-visual{min-width:0;position:relative}
+.jz-hero-shot{
+  border-radius:18px;overflow:hidden;
+  border:1px solid rgba(255,255,255,.2);
+  box-shadow:0 24px 60px rgba(0,0,0,.45);
+  aspect-ratio:16/10;background:#0e1e34;
+}
+.jz-hero-shot svg{width:100%;height:100%}
+.jz-hero-tag{
+  position:absolute;left:-8px;bottom:-16px;background:#fff;color:var(--jz-ink);
+  border-radius:12px;padding:10px 14px;font-size:12.5px;box-shadow:var(--jz-shadow);
+  display:flex;align-items:center;gap:9px;font-weight:600;max-width:90%;
+}
+.jz-hero-tag i{width:8px;height:8px;border-radius:50%;background:var(--jz-teal);flex:0 0 auto;animation:jzPulse 1.8s ease-in-out infinite}
+@keyframes jzPulse{0%,100%{opacity:1}50%{opacity:.25}}
+
+/* ===== 通用 section 标题 ===== */
+.jz-section{padding:66px 0}
+.jz-section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:34px}
+.jz-section-head h2{
+  font-size:clamp(1.4rem,2.6vw,1.95rem);font-weight:900;letter-spacing:-.01em;line-height:1.3;
+  position:relative;padding-left:16px;color:var(--jz-navy);
+}
+.jz-section-head h2::before{
+  content:"";position:absolute;left:0;top:.16em;bottom:.16em;width:5px;border-radius:3px;
+  background:linear-gradient(var(--jz-gold),var(--jz-gold-soft));
+}
+.jz-section-head p{font-size:13.5px;color:var(--jz-muted);max-width:52ch}
+
+/* ===== 企业简介区 + 关键词解析 ===== */
+.jz-about{background:#fff;border-bottom:1px solid var(--jz-line)}
+.jz-about-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:46px;align-items:start}
+.jz-about-figure{border-radius:var(--jz-radius);overflow:hidden;box-shadow:var(--jz-shadow);border:1px solid var(--jz-line)}
+.jz-about-figure svg{width:100%;aspect-ratio:4/3;display:block}
+.jz-about-figure figcaption{font-size:12.5px;color:var(--jz-muted);padding:10px 14px;background:#fafbfe;border-top:1px solid var(--jz-line)}
+.jz-about-body h3{font-size:1.12rem;color:var(--jz-navy);margin:22px 0 8px;font-weight:800}
+.jz-about-body h3:first-child{margin-top:0}
+.jz-about-body p{font-size:14.6px;color:#33445c;margin-bottom:12px}
+.jz-about-body p strong{color:var(--jz-navy)}
+.jz-quote{
+  border-left:4px solid var(--jz-gold);background:#fffaf0;border-radius:0 12px 12px 0;
+  padding:14px 18px;font-size:14px;color:#5a4720;margin:18px 0;
+}
+
+/* ===== 精选/热门：一幅重点大图 + 文字列表 ===== */
+.jz-feature-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:34px;align-items:start}
+.jz-lead-card{background:var(--jz-card);border-radius:var(--jz-radius);overflow:hidden;box-shadow:var(--jz-shadow);border:1px solid var(--jz-line);transition:transform .24s,box-shadow .24s}
+.jz-lead-card:hover{transform:translateY(-4px);box-shadow:0 18px 42px rgba(16,26,43,.14)}
+.jz-lead-cover{position:relative;aspect-ratio:16/10;background:#eef2f8}
+.jz-lead-cover svg{width:100%;height:100%}
+.jz-play{
+  position:absolute;right:12px;bottom:12px;width:38px;height:38px;border-radius:50%;
+  background:rgba(255,255,255,.94);color:var(--jz-navy);display:grid;place-items:center;
+  font-size:13px;box-shadow:0 6px 16px rgba(0,0,0,.24);
+}
+.jz-lead-body{padding:18px 20px 20px}
+.jz-tagline{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:10px}
+.jz-tag{font-size:11.5px;padding:2px 9px;border-radius:99px;background:#eef3fa;color:#3a5478;border:1px solid #e0e8f3;white-space:nowrap}
+.jz-tag.gold{background:#fff6e0;color:#8a6508;border-color:#f6e3b0}
+.jz-tag.teal{background:#e7f7f4;color:#0f7568;border-color:#c7ebe5}
+.jz-lead-body h3{font-size:1.12rem;line-height:1.45;margin-bottom:8px;color:var(--jz-navy)}
+.jz-lead-body p{font-size:13.6px;color:#4d5d74;margin-bottom:12px}
+.jz-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:12.5px;color:var(--jz-muted);border-top:1px dashed var(--jz-line);padding-top:12px}
+.jz-meta .jz-author-chip{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--jz-ink-soft)}
+.jz-avatar{width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:11px;color:#fff;font-weight:700;flex:0 0 auto}
+.jz-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.jz-act{
+  border:1px solid var(--jz-line);background:#fff;border-radius:9px;padding:5px 11px;font-size:12.5px;
+  color:#3f5069;display:inline-flex;align-items:center;gap:5px;transition:.18s;
+}
+.jz-act:hover{border-color:var(--jz-navy);color:var(--jz-navy);background:#f7faff}
+.jz-act.on{background:#fff1f0;border-color:#f2b8b2;color:#b8362c;font-weight:700}
+.jz-act.saved{background:#fff8e2;border-color:#efd68d;color:#8a6508;font-weight:700}
+
+/* 视频文字列表 */
+.jz-video-list{display:flex;flex-direction:column;gap:0;background:#fff;border:1px solid var(--jz-line);border-radius:var(--jz-radius);overflow:hidden;box-shadow:var(--jz-shadow)}
+.jz-video-item{display:grid;grid-template-columns:44px minmax(0,1fr);gap:14px;padding:16px 18px;border-bottom:1px solid #eef2f8;transition:background .18s}
+.jz-video-item:last-child{border-bottom:none}
+.jz-video-item:hover{background:#f8fbff}
+.jz-video-rank{font-size:17px;font-weight:900;color:#c3cfe0;line-height:1.2;padding-top:2px;font-variant-numeric:tabular-nums}
+.jz-video-item:first-child .jz-video-rank{color:var(--jz-gold)}
+.jz-video-item h4{font-size:14.8px;line-height:1.5;color:var(--jz-navy);margin-bottom:4px}
+.jz-video-item p{font-size:13px;color:#5a6a80;margin-bottom:8px}
+.jz-video-item .jz-meta{border-top:none;padding-top:0;margin-top:6px}
+.jz-num{font-variant-numeric:tabular-nums}
+
+/* ===== 专题 ===== */
+.jz-topics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.jz-topic{
+  background:#fff;border-radius:var(--jz-radius);border:1px solid var(--jz-line);
+  padding:22px;box-shadow:var(--jz-shadow);transition:transform .22s,border-color .22s;
+  min-width:0;display:flex;flex-direction:column;
+}
+.jz-topic:hover{transform:translateY(-4px);border-color:#c7d5e8}
+.jz-topic-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+.jz-topic h3{font-size:1.05rem;color:var(--jz-navy);line-height:1.4}
+.jz-status{font-size:11px;padding:2px 8px;border-radius:99px;white-space:nowrap;font-weight:700}
+.jz-status.live{background:#e7f7f4;color:#0f7568}
+.jz-status.wait{background:#fff3e0;color:#9a6100}
+.jz-topic>p{font-size:13.4px;color:#53637a;margin-bottom:14px}
+.jz-topic ul{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:auto}
+.jz-topic li{font-size:13.2px;color:#3d4e66;padding-left:18px;position:relative;line-height:1.6}
+.jz-topic li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--jz-gold);transform:rotate(45deg)}
+.jz-topic li span{display:block;color:#7b889b;font-size:12px}
+
+/* ===== 创作者矩阵：小型头像列表 ===== */
+.jz-authors-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.jz-author-card{
+  background:#fff;border:1px solid var(--jz-line);border-radius:var(--jz-radius);
+  padding:18px;display:grid;grid-template-columns:52px minmax(0,1fr);gap:14px;
+  box-shadow:var(--jz-shadow);transition:transform .2s,box-shadow .2s;min-width:0;
+}
+.jz-author-card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(16,26,43,.12)}
+.jz-author-face{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;color:#fff;font-weight:900;font-size:19px;letter-spacing:.02em}
+.jz-author-card h3{font-size:1rem;color:var(--jz-navy);margin-bottom:2px}
+.jz-author-field{font-size:12px;color:var(--jz-teal);font-weight:700;margin-bottom:6px}
+.jz-author-card p{font-size:13px;color:#54647b;line-height:1.66;margin-bottom:8px}
+.jz-author-nums{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--jz-muted);border-top:1px dashed var(--jz-line);padding-top:8px}
+.jz-author-nums b{color:var(--jz-ink-soft);font-variant-numeric:tabular-nums}
+.jz-author-more{border:none;background:none;color:var(--jz-navy);font-size:12.5px;font-weight:700;padding:0;text-decoration:underline;text-underline-offset:3px}
+
+/* ===== 评论：双列短评 ===== */
+.jz-comments-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.jz-comment{
+  background:#fff;border:1px solid var(--jz-line);border-radius:14px;padding:16px 18px;
+  box-shadow:0 6px 18px rgba(16,26,43,.05);min-width:0;
+}
+.jz-comment-head{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+.jz-comment-head b{font-size:13.4px;color:var(--jz-navy)}
+.jz-stars{color:var(--jz-gold);font-size:12px;letter-spacing:1px}
+.jz-comment p{font-size:13.4px;color:#45566e;line-height:1.7}
+.jz-comment footer{font-size:11.8px;color:#93a0b3;margin-top:8px}
+
+/* ===== 数据榜单 ===== */
+.jz-board{background:linear-gradient(160deg,var(--jz-navy) 0%,var(--jz-navy-deep) 70%);color:#fff;border-radius:22px;padding:34px;box-shadow:0 22px 50px rgba(11,28,51,.3)}
+.jz-board .jz-section-head h2{color:#fff}
+.jz-board .jz-section-head p{color:#a9bacf}
+.jz-board-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.jz-board-col{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:16px}
+.jz-board-col h3{font-size:14px;color:var(--jz-gold-soft);margin-bottom:12px;display:flex;align-items:center;gap:7px}
+.jz-board-col h3 i{width:6px;height:6px;border-radius:50%;background:var(--jz-gold);display:inline-block}
+.jz-board-col ol{list-style:none;display:flex;flex-direction:column;gap:10px}
+.jz-board-col li{display:grid;grid-template-columns:20px minmax(0,1fr);gap:9px;font-size:13px;color:#d3deec;line-height:1.5}
+.jz-board-col li b{color:var(--jz-gold);font-variant-numeric:tabular-nums}
+.jz-board-col li span{color:#8fa3bc;font-size:11.7px;display:block}
+
+/* ===== 企业动态 / 更新日志：时间线 ===== */
+.jz-log{background:#fff;border-radius:var(--jz-radius);border:1px solid var(--jz-line);padding:8px 26px;box-shadow:var(--jz-shadow)}
+.jz-log-item{display:grid;grid-template-columns:104px minmax(0,1fr);gap:20px;padding:20px 0;border-bottom:1px dashed var(--jz-line);min-width:0}
+.jz-log-item:last-child{border-bottom:none}
+.jz-log-date{font-size:12.5px;color:var(--jz-muted);font-weight:700;font-variant-numeric:tabular-nums;padding-top:2px}
+.jz-log-item h3{font-size:14.6px;color:var(--jz-navy);margin-bottom:5px}
+.jz-log-item p{font-size:13.3px;color:#53647b}
+
+/* ===== FAQ ===== */
+.jz-faq{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;align-items:start}
+.jz-faq details{
+  background:#fff;border:1px solid var(--jz-line);border-radius:12px;padding:0 16px;
+  box-shadow:0 4px 14px rgba(16,26,43,.045);transition:border-color .2s;min-width:0;
+}
+.jz-faq details[open]{border-color:#c8d8ec}
+.jz-faq summary{
+  list-style:none;cursor:pointer;font-size:14px;font-weight:700;color:var(--jz-navy);
+  padding:15px 26px 15px 0;position:relative;line-height:1.55;
+}
+.jz-faq summary::-webkit-details-marker{display:none}
+.jz-faq summary::after{
+  content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);
+  font-size:19px;color:var(--jz-gold);font-weight:800;line-height:1;
+}
+.jz-faq details[open] summary::after{content:"–"}
+.jz-faq details p{font-size:13.4px;color:#51627a;padding:0 0 16px;line-height:1.75}
+
+/* ===== 合作墙 ===== */
+.jz-partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+.jz-partner{
+  background:#fff;border:1px solid var(--jz-line);border-radius:12px;min-height:84px;
+  display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;
+  font-size:13.4px;font-weight:800;color:var(--jz-navy);letter-spacing:.02em;
+  transition:.2s;text-align:center;padding:12px;
+}
+.jz-partner small{font-size:11.5px;color:#8a97a9;font-weight:500;letter-spacing:0}
+.jz-partner:hover{border-color:var(--jz-gold);background:#fffdf6;transform:translateY(-2px)}
+
+/* ===== 投稿 CTA ===== */
+.jz-cta{
+  background:linear-gradient(125deg,#122a4a,#1f4676 60%,#2a5f8f);
+  border-radius:22px;padding:42px 38px;color:#fff;
+  display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:30px;align-items:center;
+  box-shadow:0 22px 50px rgba(18,42,74,.28);
+}
+.jz-cta h2{font-size:clamp(1.35rem,2.5vw,1.8rem);font-weight:900;margin-bottom:10px;line-height:1.3}
+.jz-cta p{font-size:14px;color:#c2d3e6;max-width:46ch}
+.jz-cta-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
+
+/* ===== 页脚 ===== */
+.jz-footer{background:#0a1728;color:#93a6bd;padding:54px 0 26px;margin-top:0}
+.jz-footer-grid{display:grid;grid-template-columns:minmax(0,4fr) repeat(2,minmax(0,3fr));gap:34px;margin-bottom:34px}
+.jz-footer h3{color:#fff;font-size:1rem;margin-bottom:12px;font-weight:800}
+.jz-footer p{font-size:13.2px;line-height:1.8;max-width:40ch}
+.jz-footer ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.jz-footer li{font-size:13.2px}
+.jz-footer a:hover{color:var(--jz-gold-soft)}
+.jz-footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:20px;display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;font-size:12.4px;color:#72869e}
+.jz-footer-logo{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.jz-footer-logo b{color:#fff;font-size:15px;letter-spacing:.02em}
+
+/* ===== 回到顶部 ===== */
+.jz-top{
+  position:fixed;right:22px;bottom:24px;width:46px;height:46px;border-radius:13px;
+  border:1px solid var(--jz-line);background:#fff;color:var(--jz-navy);font-size:18px;
+  box-shadow:0 10px 26px rgba(16,26,43,.16);display:grid;place-items:center;z-index:70;
+  opacity:0;pointer-events:none;transform:translateY(10px);transition:.24s;
+}
+.jz-top.on{opacity:1;pointer-events:auto;transform:translateY(0)}
+.jz-top:hover{background:var(--jz-navy);color:#fff;border-color:var(--jz-navy)}
+
+/* ===== 弹窗 / Toast ===== */
+.jz-modal-mask{
+  position:fixed;inset:0;background:rgba(9,19,33,.62);backdrop-filter:blur(3px);
+  z-index:120;display:none;align-items:center;justify-content:center;padding:20px;
+}
+.jz-modal-mask.on{display:flex}
+.jz-modal{
+  background:#fff;border-radius:18px;width:min(520px,100%);max-height:86vh;overflow:auto;
+  padding:26px;box-shadow:0 30px 70px rgba(0,0,0,.4);position:relative;
+}
+.jz-modal h3{font-size:1.1rem;color:var(--jz-navy);margin-bottom:6px}
+.jz-modal .jz-modal-sub{font-size:13px;color:var(--jz-muted);margin-bottom:16px}
+.jz-modal label{display:block;font-size:12.8px;color:var(--jz-ink-soft);font-weight:700;margin:12px 0 5px}
+.jz-modal input,.jz-modal textarea{
+  width:100%;border:1px solid var(--jz-line);border-radius:10px;padding:9px 12px;
+  font-size:13.6px;font-family:inherit;color:var(--jz-ink);background:#f9fbfe;outline:none;resize:vertical;
+}
+.jz-modal input:focus,.jz-modal textarea:focus{border-color:var(--jz-navy);background:#fff;box-shadow:0 0 0 3px rgba(18,42,74,.1)}
+.jz-modal-x{
+  position:absolute;right:14px;top:12px;border:none;background:#f1f4f9;color:#495a72;
+  width:30px;height:30px;border-radius:9px;font-size:15px;display:grid;place-items:center;
+}
+.jz-modal-x:hover{background:#e5ebf4}
+.jz-modal-foot{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}
+.jz-toast{
+  position:fixed;left:50%;bottom:36px;transform:translate(-50%,20px);
+  background:var(--jz-navy-deep);color:#fff;font-size:13.4px;padding:11px 20px;border-radius:11px;
+  box-shadow:0 14px 36px rgba(0,0,0,.3);z-index:200;opacity:0;pointer-events:none;transition:.26s;
+  max-width:88vw;text-align:center;
+}
+.jz-toast.on{opacity:1;transform:translate(-50%,0)}
+
+/* ===== 响应式 ===== */
+@media(max-width:980px){
+  .jz-hero-inner{grid-template-columns:1fr;gap:30px;padding:54px 0 58px;align-items:start}
+  .jz-hero-visual{max-width:620px}
+  .jz-about-grid,.jz-feature-grid,.jz-cta{grid-template-columns:1fr}
+  .jz-cta-actions{justify-content:flex-start}
+  .jz-board-grid{grid-template-columns:1fr}
+  .jz-footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+  .jz-nav,.jz-search{display:none}
+  .jz-burger{display:grid;place-items:center}
+  .jz-header-row{justify-content:space-between;gap:12px}
+  .jz-mobile-panel .jz-search{display:block;padding:12px 4vw;max-width:none}
+  .jz-mobile-panel .jz-search input{height:40px}
+  .jz-mobile-panel .jz-search-hint{top:46px}
+}
+@media(max-width:760px){
+  .jz-comments-grid{grid-template-columns:1fr}
+  .jz-log{padding:4px 16px}
+  .jz-log-item{grid-template-columns:1fr;gap:5px}
+  .jz-board{padding:24px 18px}
+  .jz-cta{padding:30px 22px}
+  .jz-hero-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  .jz-hero-stat b{font-size:1.15rem}
+  .jz-footer-grid{grid-template-columns:1fr}
+  .jz-section{padding:48px 0}
+  .jz-faq{grid-template-columns:1fr}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ===== 吸顶：公告条 + 页头 ===== -->
+<div class="jz-sticky-wrap">
+  <div class="jz-ticker" role="region" aria-label="官方公告">
+    <div class="jz-ticker-inner">
+      <span class="jz-ticker-badge">官方发布</span>
+      <div class="jz-ticker-track">
+        <div class="jz-ticker-move">
+          新一期《老版入口·经典回溯》专题已上线，收录 <b>12</b> 支高清修复影像 &nbsp;·&nbsp; 十一月创作者扶持计划开放报名，投稿即享流量加权 &nbsp;·&nbsp; 「蝌蚪成长记录」合拍挑战开启，投票通道同步开放 &nbsp;·&nbsp; 播放器高清播放线路升级完成，支持 <b>1080P</b> 稳定播放 &nbsp;·&nbsp; 官方周边商城新增联名款，限量 <b>500</b> 套
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="jz-header">
+    <div class="jz-header-row">
+      <a class="jz-logo" href="#jz-hero" aria-label="91九色丨蝌蚪丨老版入口 官方网站首页">
+        <span class="jz-logo-mark"><span></span></span>
+        <span class="jz-logo-text">九色<em>·</em>蝌蚪</span>
+      </a>
+      <nav class="jz-nav" aria-label="主导航">
+        <a href="#jz-about">关于品牌</a>
+        <a href="#jz-feature">精选内容</a>
+        <a href="#jz-topics">专题企划</a>
+        <a href="#jz-authors">创作者</a>
+        <a href="#jz-board">榜单</a>
+        <a href="#jz-faq">帮助</a>
+      </nav>
+      <div class="jz-search">
+        <input id="jzSearchInput" type="search" placeholder="搜索内容 / 创作者 / 专题" autocomplete="off" aria-label="站内搜索">
+        <button id="jzSearchBtn" type="button" aria-label="搜索">⌕</button>
+        <div class="jz-search-hint" id="jzSearchHint"></div>
+      </div>
+      <button class="jz-burger" id="jzBurger" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <div class="jz-mobile-panel" id="jzMobilePanel">
+    <div class="jz-search">
+      <input id="jzSearchInputM" type="search" placeholder="搜索内容 / 创作者 / 专题" autocomplete="off" aria-label="移动端站内搜索">
+      <button id="jzSearchBtnM" type="button" aria-label="搜索">⌕</button>
+      <div class="jz-search-hint" id="jzSearchHintM"></div>
+    </div>
+    <a href="#jz-about">关于品牌</a>
+    <a href="#jz-feature">精选内容</a>
+    <a href="#jz-topics">专题企划</a>
+    <a href="#jz-authors">创作者矩阵</a>
+    <a href="#jz-board">数据榜单</a>
+    <a href="#jz-comments">用户口碑</a>
+    <a href="#jz-log">企业动态</a>
+    <a href="#jz-faq">常见问题</a>
+  </div>
+</div>
+
+<!-- ===== 首屏 ===== -->
+<section class="jz-hero" id="jz-hero">
+  <div class="jz-hero-bg" aria-hidden="true">
+    <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" role="img">
+      <defs>
+        <radialGradient id="jzHeroG1" cx="76%" cy="26%" r="72%">
+          <stop offset="0%" stop-color="#2c6296"/>
+          <stop offset="52%" stop-color="#173152"/>
+          <stop offset="100%" stop-color="#0a1526"/>
+        </radialGradient>
+        <linearGradient id="jzHeroG2" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#f0b429" stop-opacity=".85"/>
+          <stop offset="100%" stop-color="#f0b429" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <rect width="1440" height="760" fill="url(#jzHeroG1)"/>
+      <g opacity=".2" stroke="#7fb3e0" stroke-width="1">
+        <path d="M0 620 Q 240 520 480 590 T 960 540 T 1440 600"/>
+        <path d="M0 680 Q 240 580 480 650 T 960 600 T 1440 660"/>
+        <path d="M0 560 Q 240 460 480 530 T 960 480 T 1440 540"/>
+      </g>
+      <circle cx="1090" cy="250" r="176" fill="none" stroke="#f0b429" stroke-opacity=".34" stroke-width="2"/>
+      <circle cx="1090" cy="250" r="118" fill="none" stroke="#f0b429" stroke-opacity=".2" stroke-width="2"/>
+      <circle cx="1090" cy="250" r="52" fill="#f0b429" fill-opacity=".12"/>
+      <path d="M1070 226 L1124 250 L1070 274 Z" fill="#f0b429" fill-opacity=".8"/>
+      <g opacity=".55">
+        <rect x="150" y="150" width="180" height="112" rx="10" fill="#1d3f66" stroke="#3d6d9c"/>
+        <rect x="150" y="150" width="180" height="112" rx="10" fill="url(#jzHeroG2)" opacity=".18"/>
+        <circle cx="240" cy="206" r="20" fill="none" stroke="#8fc0e8" stroke-width="2"/>
+        <path d="M234 198 L248 206 L234 214 Z" fill="#8fc0e8"/>
+      </g>
+      <g opacity=".4" stroke="#8fc0e8" stroke-width="1.4" fill="none">
+        <rect x="360" y="330" width="110" height="140" rx="9"/>
+        <rect x="500" y="270" width="110" height="200" rx="9"/>
+        <rect x="640" y="380" width="110" height="90" rx="9"/>
+      </g>
+      <g fill="#8fc0e8" opacity=".28">
+        <circle cx="1320" cy="580" r="4"/>
+        <circle cx="1262" cy="640" r="3"/>
+        <circle cx="1380" cy="500" r="3"/>
+        <circle cx="1220" cy="460" r="2.5"/>
+      </g>
+    </svg>
+  </div>
+  <div class="jz-hero-inner">
+    <div class="jz-hero-copy">
+      <span class="jz-eyebrow"><i></i>官方网站 · 原创高清视频品牌</span>
+      <h1>91九色丨蝌蚪丨老版入口</h1>
+      <p class="jz-hero-lead">
+        作为<strong>持续运营</strong>的原创视频品牌，我们以官方网站为内容中枢，为创作者与企业搭建<strong>高清、正版、多元</strong>的视频内容生态。从经典老版影像到新锐精品企划，这里记录每一次真实的表达与成长。
+      </p>
+      <div class="jz-hero-actions">
+        <a class="jz-btn jz-btn-primary" href="#jz-feature">进入精品内容</a>
+        <a class="jz-btn jz-btn-ghost" href="#jz-topics">查看专题企划</a>
+        <button class="jz-btn jz-btn-ghost" type="button" data-jz-open="submit">投稿入口</button>
+      </div>
+      <div class="jz-hero-stats">
+        <div class="jz-hero-stat"><b class="jz-num" data-jz-count="1286">1,286<em>+</em></b><span>在架高清视频</span></div>
+        <div class="jz-hero-stat"><b class="jz-num" data-jz-count="342">342<em>+</em></b><span>签约原创创作者</span></div>
+        <div class="jz-hero-stat"><b class="jz-num" data-jz-count="96">96<em>%</em></b><span>用户口碑好评率</span></div>
+      </div>
+    </div>
+    <div class="jz-hero-visual">
+      <div class="jz-hero-shot">
+        <svg viewBox="0 0 640 400" role="img" aria-label="91九色丨蝌蚪丨老版入口首屏主视觉：夜色中的视频播放界面与创作者影像窗口">
+          <defs>
+            <linearGradient id="jzShotA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#1b3a5e"/><stop offset="100%" stop-color="#0c1c30"/>
+            </linearGradient>
+            <linearGradient id="jzShotB" x1="0" y1="1" x2="1" y2="0">
+              <stop offset="0%" stop-color="#f0b429"/><stop offset="100%" stop-color="#e07b39"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="400" fill="url(#jzShotA)"/>
+          <g opacity=".32" stroke="#6fa3d6" stroke-width="1">
+            <path d="M0 300 Q 120 250 240 290 T 480 260 T 640 300"/>
+            <path d="M0 340 Q 120 290 240 330 T 480 300 T 640 340"/>
+          </g>
+          <rect x="60" y="72" width="300" height="178" rx="12" fill="#122a45" stroke="#3f6d9c" stroke-width="1.5"/>
+          <rect x="60" y="72" width="300" height="178" rx="12" fill="url(#jzShotB)" opacity=".12"/>
+          <circle cx="210" cy="161" r="34" fill="none" stroke="#f0b429" stroke-width="2.5"/>
+          <path d="M200 146 L228 161 L200 176 Z" fill="#f0b429"/>
+          <rect x="76" y="228" width="120" height="7" rx="3.5" fill="#3f6d9c"/>
+          <rect x="76" y="241" width="76" height="5" rx="2.5" fill="#2c527b"/>
+          <rect x="386" y="52" width="196" height="120" rx="10" fill="#173556" stroke="#38648f"/>
+          <circle cx="432" cy="90" r="14" fill="#1f9c8f"/>
+          <circle cx="432" cy="90" r="6" fill="#0d2a3f"/>
+          <rect x="458" y="80" width="96" height="7" rx="3.5" fill="#4b7caa"/>
+          <rect x="458" y="95" width="64" height="5" rx="2.5" fill="#325a84"/>
+          <rect x="400" y="122" width="166" height="5" rx="2.5" fill="#2c527b"/>
+          <rect x="400" y="134" width="120" height="5" rx="2.5" fill="#2c527b"/>
+          <rect x="386" y="192" width="196" height="120" rx="10" fill="#173556" stroke="#38648f"/>
+          <g fill="#4b7caa">
+            <rect x="402" y="286" width="18" height="14" rx="3"/>
+            <rect x="428" y="272" width="18" height="28" rx="3"/>
+            <rect x="454" y="258" width="18" height="42" rx="3"/>
+            <rect x="480" y="280" width="18" height="20" rx="3"/>
+            <rect x="506" y="264" width="18" height="36" rx="3"/>
+            <rect x="532" y="274" width="18" height="26" rx="3"/>
+          </g>
+          <rect x="402" y="206" width="82" height="7" rx="3.5" fill="#4b7caa"/>
+          <rect x="402" y="220" width="52" height="5" rx="2.5" fill="#325a84"/>
+          <circle cx="560" cy="330" r="26" fill="#f0b429" opacity=".18"/>
+          <circle cx="560" cy="330" r="14" fill="none" stroke="#f0b429" stroke-width="2"/>
+          <rect x="60" y="284" width="300" height="66" rx="10" fill="#0f2438" stroke="#2e5680"/>
+          <g fill="#3d6d9c">
+            <rect x="78" y="300" width="42" height="34" rx="5"/>
+            <rect x="132" y="300" width="42" height="34" rx="5"/>
+            <rect x="186" y="300" width="42" height="34" rx="5"/>
+            <rect x="240" y="300" width="42" height="34" rx="5"/>
+            <rect x="294" y="300" width="42" height="34" rx="5"/>
+          </g>
+        </svg>
+      </div>
+      <div class="jz-hero-tag"><i></i>老版入口经典影像修复计划 · 本周更新 6 支</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 关于品牌 + 关键词深度解析 ===== -->
+<section class="jz-section jz-about" id="jz-about">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>关于 91九色丨蝌蚪丨老版入口 官方网站</h2>
+      <p>企业简介 · 品牌理念 · 关键词深度解析</p>
+    </div>
+    <div class="jz-about-grid">
+      <figure class="jz-about-figure">
+        <svg viewBox="0 0 480 360" role="img" aria-label="91九色丨蝌蚪丨老版入口品牌工作室内部场景插画：剪辑台、屏幕墙与团队协作">
+          <defs>
+            <linearGradient id="jzAboutA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#eaf1f9"/><stop offset="100%" stop-color="#cfe0f1"/>
+            </linearGradient>
+          </defs>
+          <rect width="480" height="360" fill="url(#jzAboutA)"/>
+          <rect x="0" y="248" width="480" height="112" fill="#d9e6f3"/>
+          <rect x="36" y="52" width="196" height="120" rx="9" fill="#122a4a"/>
+          <g fill="#f0b429" opacity=".88">
+            <rect x="52" y="70" width="60" height="6" rx="3"/>
+            <rect x="52" y="86" width="120" height="6" rx="3"/>
+            <rect x="52" y="102" width="92" height="6" rx="3"/>
+          </g>
+          <rect x="52" y="126" width="164" height="30" rx="6" fill="#1f9c8f" opacity=".82"/>
+          <rect x="252" y="52" width="192" height="74" rx="9" fill="#ffffff" stroke="#c3d6e8"/>
+          <circle cx="284" cy="89" r="17" fill="#f0b429" opacity=".32"/>
+          <circle cx="284" cy="89" r="8" fill="#122a4a"/>
+          <rect x="312" y="78" width="112" height="7" rx="3.5" fill="#93b1cc"/>
+          <rect x="312" y="94" width="74" height="5" rx="2.5" fill="#b6cadd"/>
+          <rect x="252" y="140" width="192" height="60" rx="9" fill="#ffffff" stroke="#c3d6e8"/>
+          <g fill="#1f9c8f">
+            <rect x="270" y="176" width="16" height="14" rx="3"/>
+            <rect x="294" y="164" width="16" height="26" rx="3"/>
+            <rect x="318" y="156" width="16" height="34" rx="3"/>
+            <rect x="342" y="170" width="16" height="20" rx="3"/>
+            <rect x="366" y="160" width="16" height="30" rx="3"/>
+          </g>
+          <rect x="36" y="196" width="408" height="14" rx="7" fill="#ffffff" opacity=".86"/>
+          <g fill="#2f5d8c">
+            <rect x="66" y="256" width="118" height="52" rx="8"/>
+            <rect x="200" y="256" width="86" height="52" rx="8"/>
+            <rect x="302" y="256" width="112" height="52" rx="8"/>
+          </g>
+          <g fill="#8fb2d2">
+            <circle cx="96" cy="282" r="10"/>
+            <circle cx="214" cy="282" r="10"/>
+            <circle cx="330" cy="282" r="10"/>
+          </g>
+          <circle cx="424" cy="264" r="20" fill="#f0b429" opacity=".28"/>
+          <path d="M418 254 L432 264 L418 274 Z" fill="#d99315"/>
+        </svg>
+        <figcaption>品牌内容工作室：从选题策划到高清成片，完整链路自主运营</figcaption>
+      </figure>
+      <div class="jz-about-body">
+        <p><strong>91九色丨蝌蚪丨老版入口</strong>是一家以原创视频为核心的品牌内容企业，官方网站作为品牌统一入口，承载内容发布、创作者协作与社区互动的全部职能。我们坚持正版高清的出品标准，用持续运营的方式记录真实、温暖、有力量的影像表达，为行业与用户提供值得信赖的内容生态。</p>
+        <div class="jz-quote">「老版入口」不只是一种怀旧情结，更是一种品牌方法：把被时间验证过的经典内容，用当下的高清技术与社区运营重新交付给用户。</div>
+
+        <h3>关键词解析：为什么是「九色」</h3>
+        <p>「九色」在我们内部是一个内容坐标，而不是一句空泛的口号。九色对应九个内容分区：日常记录、经验分享、深度访谈、城市探索、创作幕后、知识科普、治愈影像、艺术美学、行业观察。每个分区都有独立的选题委员会与月度评审机制，确保内容不被流量单一维度绑架。官方网站的首页导航、专题结构与榜单体系，全部围绕这九个分区搭建，用户可以在三秒内判断自己想看的内容属于哪一色。对创作者而言，九色意味着更清晰的定位：你不需要猜测平台喜欢什么，只需要找到一个色系并深耕。对企业而言，九色构成可复用的品牌资产——客户在投放时能够精准选择内容语境，而不是把广告塞进一个模糊的流量池。</p>
+
+        <h3>关键词解析：为什么是「蝌蚪」</h3>
+        <p>「蝌蚪」代表成长与陪伴。我们把这个词写进品牌名，是想坦诚地承认：绝大多数创作者并不是天生成熟的表达者，而是在一次次拍摄、剪辑、复盘里逐渐长出完整形态。因此官方网站在产品设计上刻意保留了「成长痕迹」：每位作者主页都会展示最初三支作品与最近三支作品，用户能直观看到镜头的进步、叙事的成熟、审美的变化。我们每年举办的「蝌蚪成长记录」合拍挑战，就是让创作者回到原点，用同一机位、同一主题重拍一次，形成可对比的时间证据。这种机制让社区氛围更包容，也让新人敢于上传第一条视频——因为在蝌蚪阶段被鼓励，比在成熟期被放大更重要。</p>
+
+        <h3>关键词解析：为什么保留「老版入口」</h3>
+        <p>「老版入口」是我们对品牌历史的正式确认。许多视频品牌在迭代中把早期界面与内容悄悄下架，用户回头找不到熟悉的路径。我们选择了相反的做法：在官方网站中永久保留一个经典入口，集中呈现建站以来的代表性影像、初代视觉界面与创作者访谈。技术上，这个入口采用高清修复与原始版本双轨呈现，用户可以在同一页面切换两种画质，直观感受影像修复的价值。运营上，我们每季度更新一次「经典回溯」专题，把老版入口中播放与收藏数据最高的内容重新编排，并邀请原作者录制一支当下的回访短片。对长期用户来说，这是尊重；对新用户来说，这是一条理解品牌来路的捷径。老版入口因此不是怀旧摆设，而是品牌可信度的一部分，也是我们强调正版、原创、持续运营的具体证据。</p>
+
+        <h3>关键词解析：内容生态与社区活力如何同时成立</h3>
+        <p>很多视频社区在规模扩大后会陷入两难：要么过度倚重头部作者，要么被低质内容稀释口碑。我们的做法是把「企业级内容标准」与「社区自运转」拆成两条并行链路。企业侧负责专题企划、高清修复、版权合规与榜单评审；社区侧负责话题发起、合拍挑战、投票与短评。两条链路共用同一套数据看板，但评审权互不覆盖。举例来说，一支新人作品可以在社区侧获得高热度，但进入首页精选必须经过企业侧的内容标准评定，这保证了精品内容的严肃性；反过来，企业侧策划的专题也必须接受社区侧的播放与收藏检验，避免自嗨。通过这样的双轨设计，91九色丨蝌蚪丨老版入口 在保持专业形象的同时，社区仍然有真实的讨论气息与持续的新鲜感，这也是我们被用户称为「值得信赖的视频品牌」的原因之一。</p>
+        <p>2026 年，我们进一步把创作者扶持计划制度化：每季度开放报名，入选者获得拍摄补贴、剪辑指导与首页曝光位。截至目前，已有 342 位创作者签署原创内容协议，累计交付 1286 支高清作品。企业动态与更新日志会如实披露每一次调整，官方 FAQ 中也对投稿、版权、举报等流程做了完整说明。我们希望这个官方网站既是品牌门面，也是可被检验的工作记录。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 精选内容：一幅重点大图 + 文字列表 ===== -->
+<section class="jz-section" id="jz-feature">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>本周精选 · 91九色丨蝌蚪丨老版入口 精品内容</h2>
+      <p>企业侧评审 × 社区侧热度双轨推荐，重点内容配高清封面，其余以文字索引呈现</p>
+    </div>
+    <div class="jz-feature-grid">
+      <article class="jz-lead-card">
+        <div class="jz-lead-cover">
+          <svg viewBox="0 0 640 400" role="img" aria-label="老版入口经典回溯专题封面：修复前后的影像分屏与时间刻度">
+            <defs>
+              <linearGradient id="jzLeadA" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#8f9aa8"/><stop offset="100%" stop-color="#b6c1cd"/>
+              </linearGradient>
+              <linearGradient id="jzLeadB" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#1f5f8f"/><stop offset="100%" stop-color="#2b86a8"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="400" fill="#101c2c"/>
+            <rect x="0" y="0" width="318" height="400" fill="url(#jzLeadA)" opacity=".62"/>
+            <rect x="322" y="0" width="318" height="400" fill="url(#jzLeadB)" opacity=".78"/>
+            <g opacity=".5" fill="#0e1927">
+              <rect x="40" y="70" width="240" height="140" rx="8"/>
+              <rect x="40" y="230" width="240" height="90" rx="8"/>
+            </g>
+            <g opacity=".5" fill="#c7e5f5">
+              <rect x="362" y="70" width="240" height="140" rx="8"/>
+              <rect x="362" y="230" width="240" height="90" rx="8"/>
+            </g>
+            <line x1="320" y1="0" x2="320" y2="400" stroke="#f0b429" stroke-width="3" stroke-dasharray="10 8"/>
+            <circle cx="320" cy="200" r="22" fill="#f0b429"/>
+            <path d="M312 189 L334 200 L312 211 Z" fill="#101c2c"/>
+            <g stroke="#dbe9f5" stroke-width="2" opacity=".6">
+              <line x1="60" y1="360" x2="580" y2="360"/>
+              <line x1="120" y1="352" x2="120" y2="368"/>
+              <line x1="240" y1="352" x2="240" y2="368"/>
+              <line x1="360" y1="352" x2="360" y2="368"/>
+              <line x1="480" y1="352" x2="480" y2="368"/>
+            </g>
+            <text x="60" y="46" font-size="17" fill="#e8c46a" font-family="sans-serif" font-weight="bold">CLASSIC ENTRY · 经典回溯</text>
+            <text x="404" y="46" font-size="17" fill="#e8c46a" font-family="sans-serif" font-weight="bold">RESTORED · 高清修复</text>
+          </svg>
+          <span class="jz-play" aria-hidden="true">▶</span>
+        </div>
+        <div class="jz-lead-body">
+          <div class="jz-tagline">
+            <span class="jz-tag gold">重点推荐</span>
+            <span class="jz-tag">品牌故事</span>
+            <span class="jz-tag teal">高清修复</span>
+          </div>
+          <h3>《老版入口·十年之后》：一支关于品牌来路的 42 分钟纪录长片</h3>
+          <p>我们回到最初的剪辑室，找到建站时第一块硬盘与第一份选题表，邀请六位元老创作者重看自己的处女作。影片以双轨画质对比穿插访谈，呈现一支视频从 480P 到 1080P 的技术变迁，也呈现一群人的表达如何逐渐成熟。</p>
+          <div class="jz-meta">
+            <span class="jz-author-chip"><span class="jz-avatar" style="background:#1f9c8f">林</span>林知远</span>
+            <span>·</span><span>42:18</span><span>·</span><span class="jz-num">播放 12.8 万</span><span>·</span><span>收藏 6,412</span>
+          </div>
+          <div class="jz-actions">
+            <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">2,806</span></button>
+            <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            <button class="jz-act" type="button" data-jz-copy data-jz-title="《老版入口·十年之后》纪录长片">⧉ 复制链接</button>
+          </div>
+        </div>
+      </article>
+
+      <div class="jz-video-list" id="jzVideoList">
+        <article class="jz-video-item">
+          <div class="jz-video-rank">01</div>
+          <div>
+            <h4>蝌蚪成长记录：用三年时间把镜头对准同一条街</h4>
+            <p>创作者用固定机位记录社区街角，三年后剪辑成八分钟时间切片，讲解运镜克制与叙事节奏的取舍。</p>
+            <div class="jz-tagline"><span class="jz-tag">日常记录</span><span class="jz-tag teal">成长陪伴</span></div>
+            <div class="jz-meta"><span class="jz-author-chip"><span class="jz-avatar" style="background:#e07b39">周</span>周未迟</span><span>18:42</span><span class="jz-num">播放 8.4 万</span></div>
+            <div class="jz-actions">
+              <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">1,942</span></button>
+              <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="jz-video-item">
+          <div class="jz-video-rank">02</div>
+          <div>
+            <h4>九色分区选片指南：如何在一小时内定位想看的内容</h4>
+            <p>编辑部把九个内容分区的选片逻辑讲透，附一份可直接套用的周末观影清单与标签组合建议。</p>
+            <div class="jz-tagline"><span class="jz-tag">经验分享</span><span class="jz-tag gold">实用技巧</span></div>
+            <div class="jz-meta"><span class="jz-author-chip"><span class="jz-avatar" style="background:#122a4a">编</span>九色编辑部</span><span>26:05</span><span class="jz-num">播放 6.1 万</span></div>
+            <div class="jz-actions">
+              <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">1,377</span></button>
+              <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="jz-video-item">
+          <div class="jz-video-rank">03</div>
+          <div>
+            <h4>城市探索：沿着老电影院走完一条正在消失的街区</h4>
+            <p>在地创作者带路，用声音采集与手持镜头记录三家老影院的最后一晚，全片以环境音为主。</p>
+            <div class="jz-tagline"><span class="jz-tag">城市探索</span><span class="jz-tag">在地文化</span></div>
+            <div class="jz-meta"><span class="jz-author-chip"><span class="jz-avatar" style="background:#6b4fd8">许</span>许城</span><span>31:20</span><span class="jz-num">播放 5.7 万</span></div>
+            <div class="jz-actions">
+              <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">1,158</span></button>
+              <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="jz-video-item">
+          <div class="jz-video-rank">04</div>
+          <div>
+            <h4>创作幕后：一支两分钟短片背后的一百二十次剪辑</h4>
+            <p>逐帧拆解爆款短片的节奏设计，从脚本分镜到调色参数全部公开，适合正在打磨成片的创作者。</p>
+            <div class="jz-tagline"><span class="jz-tag">创作幕后</span><span class="jz-tag teal">教程干货</span></div>
+            <div class="jz-meta"><span class="jz-author-chip"><span class="jz-avatar" style="background:#1f9c8f">顾</span>顾一鸣</span><span>35:12</span><span class="jz-num">播放 4.9 万</span></div>
+            <div class="jz-actions">
+              <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">986</span></button>
+              <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+        <article class="jz-video-item">
+          <div class="jz-video-rank">05</div>
+          <div>
+            <h4>深度访谈：修复师谈老影像的色彩还原与尊重</h4>
+            <p>四十分钟长访谈，聊为何修复不是调得更鲜亮，以及如何在保留颗粒感与提升清晰度之间取舍。</p>
+            <div class="jz-tagline"><span class="jz-tag">人物访谈</span><span class="jz-tag gold">品牌故事</span></div>
+            <div class="jz-meta"><span class="jz-author-chip"><span class="jz-avatar" style="background:#c2553f">陈</span>陈砚秋</span><span>40:36</span><span class="jz-num">播放 4.2 万</span></div>
+            <div class="jz-actions">
+              <button class="jz-act" type="button" data-jz-like>♡ 点赞 <span class="jz-num">842</span></button>
+              <button class="jz-act" type="button" data-jz-save>☆ 收藏</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 专题企划 ===== -->
+<section class="jz-section" id="jz-topics" style="background:#fff;border-top:1px solid var(--jz-line);border-bottom:1px solid var(--jz-line)">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>专题企划 · 九色内容生态的长期项目</h2>
+      <p>企业侧主导策划、社区侧共同参与，每个专题持续更新并在官网同步状态</p>
+    </div>
+    <div class="jz-topics-grid">
+      <article class="jz-topic">
+        <div class="jz-topic-head">
+          <h3>老版入口 · 经典回溯计划</h3>
+          <span class="jz-status live">更新中</span>
+        </div>
+        <p>把建站以来的代表影像做高清修复与双轨对照，每季度邀请原作者回访，形成可追溯的影像档案。</p>
+        <ul>
+          <li>十年之后：首支上线视频的重剪与回访<span>第 12 期 · 42:18</span></li>
+          <li>480P 到 1080P：一次画质修复的完整记录<span>第 11 期 · 28:40</span></li>
+          <li>初代界面复原：那份被保留下来的首页<span>第 10 期 · 19:52</span></li>
+        </ul>
+      </article>
+      <article class="jz-topic">
+        <div class="jz-topic-head">
+          <h3>蝌蚪成长记录 · 合拍挑战</h3>
+          <span class="jz-status live">报名中</span>
+        </div>
+        <p>同一机位、同一主题，隔一年重拍一次。官方提供拍摄模板与评审反馈，作品自动进入成长档案。</p>
+        <ul>
+          <li>用固定机位拍下你家窗外的四季变化<span>合拍模板 · 开放中</span></li>
+          <li>重拍三年前的第一条视频，会发生什么<span>示范作品 · 08:12</span></li>
+          <li>新人扶持：从脚本到成片的七次改稿<span>幕后记录 · 21:06</span></li>
+        </ul>
+      </article>
+      <article class="jz-topic">
+        <div class="jz-topic-head">
+          <h3>九色分区 · 创作者公开课</h3>
+          <span class="jz-status wait">筹备中</span>
+        </div>
+        <p>邀请九个内容分区的头部创作者开设免费公开课，从选题判断到成片交付，全部流程透明演示。</p>
+        <ul>
+          <li>日常记录分区：如何让平淡素材有叙事<span>讲师 · 周未迟</span></li>
+          <li>人物访谈分区：提问的层次与留白<span>讲师 · 陈砚秋</span></li>
+          <li>城市探索分区：声音采集入门<span>讲师 · 许城</span></li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 创作者矩阵 ===== -->
+<section class="jz-section" id="jz-authors">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>创作者矩阵 · 与 91九色丨蝌蚪丨老版入口 同行的表达者</h2>
+      <p>签约原创创作者名录，点击「查看档案」可打开详细信息</p>
+    </div>
+    <div class="jz-authors-grid">
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#1f9c8f">林</span>
+        <div>
+          <h3>林知远</h3>
+          <div class="jz-author-field">纪录长片 · 品牌故事</div>
+          <p>前电视纪录片编导，擅长长时间跟拍与结构化剪辑。主张「先有耐心，再有镜头」，拍摄周期常以月计。近三年专注品牌历史影像的重建与访谈。</p>
+          <div class="jz-author-nums"><span>作品 <b>86</b></span><span>粉丝 <b>24.6 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="林知远|纪录长片 · 品牌故事|86 支原创作品，累计播放 412 万。前电视纪录片编导，习惯用长时间跟拍换取真实反应，强调拍摄伦理与被访者知情权。近三年专注品牌历史影像重建，《老版入口·十年之后》为其代表作。">查看档案</button>
+        </div>
+      </article>
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#e07b39">周</span>
+        <div>
+          <h3>周未迟</h3>
+          <div class="jz-author-field">日常记录 · 成长陪伴</div>
+          <p>固定机位记录爱好者，坚持每周更新一条三分钟生活切片。镜头克制、环境音突出，作品常被用作新人合拍模板，社区称其为「蝌蚪记录的教科书」。</p>
+          <div class="jz-author-nums"><span>作品 <b>142</b></span><span>粉丝 <b>18.3 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="周未迟|日常记录 · 成长陪伴|142 支作品，连续更新 156 周未中断。擅长用固定机位与自然光记录日常，剪辑节奏缓慢但信息密度高。主持《蝌蚪成长记录》合拍挑战的模板设计，强调「可复制的方法比天赋更重要」。">查看档案</button>
+        </div>
+      </article>
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#122a4a">编</span>
+        <div>
+          <h3>九色编辑部</h3>
+          <div class="jz-author-field">选片指南 · 行业观察</div>
+          <p>品牌官方内容团队账号，负责专题策划、榜单评审与新人指导。每周发布选片指南与行业观察，风格直接、信息密度高，是官网精选内容的常驻推荐者。</p>
+          <div class="jz-author-nums"><span>作品 <b>63</b></span><span>粉丝 <b>31.2 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="九色编辑部|选片指南 · 行业观察|品牌企业侧官方账号，63 支内容覆盖选片方法、内容生态观察与榜单解读。所有推荐均经过双轨评审，不接受付费买榜。团队坚持公开评审口径，官网 FAQ 中可查完整规则。">查看档案</button>
+        </div>
+      </article>
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#6b4fd8">许</span>
+        <div>
+          <h3>许城</h3>
+          <div class="jz-author-field">城市探索 · 在地文化</div>
+          <p>城市声音采集与步行影像创作者，拍摄前必做两周田野调查。善于把街区变迁讲成具体的人的故事，作品多采用手持与环境音，情绪真实不煽情。</p>
+          <div class="jz-author-nums"><span>作品 <b>58</b></span><span>粉丝 <b>12.9 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="许城|城市探索 · 在地文化|58 支城市影像，足迹覆盖 14 座城市。习惯先做两周田野调查再开机，强调在地居民的讲述权。代表作《沿着老电影院走完一条街》采用全环境音剪辑，被多家内容机构引为教学案例。">查看档案</button>
+        </div>
+      </article>
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#c2553f">陈</span>
+        <div>
+          <h3>陈砚秋</h3>
+          <div class="jz-author-field">人物访谈 · 影像修复</div>
+          <p>影像修复师出身，后转向访谈创作。提问温和但层层深入，擅长在技术细节与人文尊重之间找到平衡，是官网《深度访谈》栏目固定主持人。</p>
+          <div class="jz-author-nums"><span>作品 <b>47</b></span><span>粉丝 <b>9.8 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="陈砚秋|人物访谈 · 影像修复|47 支访谈作品，平均时长 38 分钟。修复师背景让其提问常触及技术与伦理的交叉点，强调「修复不是美化」。主持官网深度访谈栏目，访谈提纲全部公开展示。">查看档案</button>
+        </div>
+      </article>
+      <article class="jz-author-card">
+        <span class="jz-author-face" style="background:#1f5f8f">顾</span>
+        <div>
+          <h3>顾一鸣</h3>
+          <div class="jz-author-field">创作幕后 · 教程干货</div>
+          <p>剪辑师与短片导演，习惯把成片拆解到逐帧讲解。教程不藏私，调色参数、分镜表、失败版本全部公开，被称为「最舍得给方法论的创作者」。</p>
+          <div class="jz-author-nums"><span>作品 <b>94</b></span><span>粉丝 <b>27.5 万</b></span></div>
+          <button class="jz-author-more" type="button" data-jz-author="顾一鸣|创作幕后 · 教程干货|94 支教程与幕后内容，单支最高播放 86 万。坚持公开完整工作流，包括被删掉的镜头与失败版本。主张创作者应建立可复用的素材与模板体系，而非依赖灵感。">查看档案</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 榜单 + 口碑 ===== -->
+<section class="jz-section" id="jz-board">
+  <div class="jz-shell">
+    <div class="jz-board">
+      <div class="jz-section-head">
+        <h2>数据榜单 · 91九色丨蝌蚪丨老版入口 官方评审</h2>
+        <p>热度、新人、口碑三榜并列，每两周更新一次，评审口径与数据来源在 FAQ 中公开</p>
+      </div>
+      <div class="jz-board-grid">
+        <div class="jz-board-col">
+          <h3><i></i>热度榜</h3>
+          <ol>
+            <li><b>1</b><div>《老版入口·十年之后》<span>播放 12.8 万 · 收藏 6,412</span></div></li>
+            <li><b>2</b><div>蝌蚪成长记录：同一条街三年<span>播放 8.4 万 · 收藏 3,906</span></div></li>
+            <li><b>3</b><div>九色分区选片指南<span>播放 6.1 万 · 收藏 4,120</span></div></li>
+            <li><b>4</b><div>城市探索：消失的街区<span>播放 5.7 万 · 收藏 2,884</span></div></li>
+            <li><b>5</b><div>一支短片的一百二十次剪辑<span>播放 4.9 万 · 收藏 3,271</span></div></li>
+          </ol>
+        </div>
+        <div class="jz-board-col">
+          <h3><i></i>新人榜</h3>
+          <ol>
+            <li><b>1</b><div>江屿 · 海岸线声音日记<span>入驻 3 个月 · 作品 9 支</span></div></li>
+            <li><b>2</b><div>阿禾 · 菜市场的十二时辰<span>入驻 2 个月 · 作品 6 支</span></div></li>
+            <li><b>3</b><div>沈迟 · 旧物修复手记<span>入驻 4 个月 · 作品 11 支</span></div></li>
+            <li><b>4</b><div>南岸小组 · 厂房里的音乐会<span>入驻 1 个月 · 作品 3 支</span></div></li>
+            <li><b>5</b><div>林小满 · 阳台种植实验<span>入驻 2 个月 · 作品 7 支</span></div></li>
+          </ol>
+        </div>
+        <div class="jz-board-col">
+          <h3><i></i>口碑榜</h3>
+          <ol>
+            <li><b>1</b><div>深度访谈：修复与尊重<span>好评率 98% · 短评 412 条</span></div></li>
+            <li><b>2</b><div>九色编辑部选片指南<span>好评率 97% · 短评 386 条</span></div></li>
+            <li><b>3</b><div>蝌蚪合拍模板讲解<span>好评率 96% · 短评 301 条</span></div></li>
+            <li><b>4</b><div>创作幕后：调色实录<span>好评率 95% · 短评 268 条</span></div></li>
+            <li><b>5</b><div>城市探索：声音采集入门<span>好评率 95% · 短评 224 条</span></div></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 用户评价：双列短评 ===== -->
+<section class="jz-section" id="jz-comments" style="background:#fff;border-top:1px solid var(--jz-line);border-bottom:1px solid var(--jz-line)">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>用户评价 · 来自社区的真实声音</h2>
+      <p>评价来自注册用户，未经编辑删改，仅做长度适配</p>
+    </div>
+    <div class="jz-comments-grid">
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#1f9c8f">K</span><b>看片不看榜</b><span class="jz-stars">★★★★★</span></div>
+        <p>老版入口这个设计真的太加分了。我 2019 年就在这儿看视频，中间换过账号，以为早期内容都没了，结果在官网还能找到原版界面和修复版本对比，那一刻是真的有点感动。</p>
+        <footer>对 老版入口经典回溯计划 的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#e07b39">阿</span><b>阿禾的相机</b><span class="jz-stars">★★★★☆</span></div>
+        <p>作为新人创作者，最直接的感受是评审口径透明。投稿前能查到内容标准，被拒也会收到具体意见，不是一句「不符合规范」了事。这一点比很多大平台友好太多。</p>
+        <footer>对 创作者扶持计划 的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#122a4a">剪</span><b>剪辑室夜班</b><span class="jz-stars">★★★★★</span></div>
+        <p>顾一鸣的教程属于那种「看完能立刻动手」的类型。分镜表、调色参数、失败版本全给，甚至连导出设置都写了。我在项目里直接套用了他的素材命名规范，效率提升明显。</p>
+        <footer>对 创作幕后 系列的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#6b4fd8">慢</span><b>慢速生活家</b><span class="jz-stars">★★★★☆</span></div>
+        <p>画质是真的稳，1080P 播放基本不卡。唯一想提的建议是希望专题页能加一个按更新时间排序的开关，现在找最新一期要多翻两下。</p>
+        <footer>对 播放体验 的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#c2553f">陈</span><b>城南旧事</b><span class="jz-stars">★★★★★</span></div>
+        <p>许城那支老电影院的作品我看哭了。没有煽情配乐，就是环境音和居民的口述，但特别有力量。后来才知道他拍摄前做了两周田野调查，这种认真值得被看见。</p>
+        <footer>对 城市探索 分区的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#1f5f8f">数</span><b>数据派小周</b><span class="jz-stars">★★★★☆</span></div>
+        <p>榜单每两周更新还算及时，而且会写明数据口径，这点很少见。希望之后能把「收藏 / 播放」比值也放出来，对判断内容长尾价值更有参考意义。</p>
+        <footer>对 数据榜单 的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#7a8a9c">路</span><b>路过的观众</b><span class="jz-stars">★★★★☆</span></div>
+        <p>第一次来是搜关键词进来的，本来以为是个普通视频站，结果发现内容编排挺讲究。九色分区这个说法一开始觉得玄，点进去发现确实分得很清楚，找片方便。</p>
+        <footer>对 内容生态 的评价</footer>
+      </article>
+      <article class="jz-comment">
+        <div class="jz-comment-head"><span class="jz-avatar" style="background:#0f7568">合</span><b>合作方老李</b><span class="jz-stars">★★★★★</span></div>
+        <p>我们品牌在这儿投过一期专题，从选题会到成片交付流程很清楚，数据回传也及时。最看重的是他们不把广告硬塞进内容里，创作者的表达边界被尊重了。</p>
+        <footer>对 企业合作 的评价</footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 企业动态 / 更新日志 ===== -->
+<section class="jz-section" id="jz-log">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>企业动态与更新日志</h2>
+      <p>官方发布，如实记录产品、内容与运营的每一次调整</p>
+    </div>
+    <div class="jz-log">
+      <div class="jz-log-item">
+        <div class="jz-log-date">2026-11-18</div>
+        <div>
+          <h3>「老版入口·经典回溯」第十二期上线</h3>
+          <p>本期收录 12 支高清修复影像，新增双轨画质切换功能，用户可在同一页面比较原始版本与修复版本。专题页同步开放短评区，首日收到 386 条评价。</p>
+        </div>
+      </div>
+      <div class="jz-log-item">
+        <div class="jz-log-date">2026-11-10</div>
+        <div>
+          <h3>十一月创作者扶持计划开放报名</h3>
+          <p>本季度计划扶持 40 位创作者，提供拍摄补贴、剪辑一对一指导与首页曝光位。报名需提交一支原创作品与一份三个月创作计划，评审结果将于 12 月初公示。</p>
+        </div>
+      </div>
+      <div class="jz-log-item">
+        <div class="jz-log-date">2026-10-29</div>
+        <div>
+          <h3>播放器高清线路升级完成</h3>
+          <p>官网播放器完成新一轮线路优化，1080P 播放缓冲时间平均缩短 32%，移动端弱网环境下的自动降档策略同步调整，减少中途卡顿对观看的打断。</p>
+        </div>
+      </div>
+      <div class="jz-log-item">
+        <div class="jz-log-date">2026-10-14</div>
+        <div>
+          <h3>内容评审口径公开页上线</h3>
+          <p>为提升透明度，官网新增评审口径说明页，公开精选内容、榜单与专题的三类评审标准及申诉流程。任何创作者均可对结果提出复核申请。</p>
+        </div>
+      </div>
+      <div class="jz-log-item">
+        <div class="jz-log-date">2026-09-25</div>
+        <div>
+          <h3>「蝌蚪成长记录」合拍挑战第二季启动</h3>
+          <p>第二季新增三个拍摄模板与成长档案自动生成功能，参与者的作品会按时间线排列展示。首周报名人数突破 2,300 人，投票通道同步开放。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 合作墙 ===== -->
+<section class="jz-section" id="jz-partners" style="padding-top:0">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>合作品牌与内容伙伴</h2>
+      <p>与 91九色丨蝌蚪丨老版入口 共建品质内容生态的长期伙伴</p>
+    </div>
+    <div class="jz-partners">
+      <div class="jz-partner">光影器材社<small>拍摄设备支持</small></div>
+      <div class="jz-partner">城南影像档案馆<small>老影像素材合作</small></div>
+      <div class="jz-partner">慢岛咖啡<small>线下放映场地</small></div>
+      <div class="jz-partner">青禾独立书店<small>文化访谈联合出品</small></div>
+      <div class="jz-partner">声场录音棚<small>环境音采集协作</small></div>
+      <div class="jz-partner">棱镜调色工作室<small>修复技术顾问</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 投稿 CTA ===== -->
+<section class="jz-section" id="jz-submit" style="padding-top:0">
+  <div class="jz-shell">
+    <div class="jz-cta">
+      <div>
+        <h2>把你的影像，放进 91九色丨蝌蚪丨老版入口</h2>
+        <p>无论你处在蝌蚪阶段还是成熟期，官网投稿通道长期开放。原创、正版、高清是我们的底线，真实的表达是我们的偏好。提交作品后 7 个工作日内会收到评审反馈。</p>
+      </div>
+      <div class="jz-cta-actions">
+        <button class="jz-btn jz-btn-primary" type="button" data-jz-open="submit">立即投稿</button>
+        <button class="jz-btn jz-btn-ghost" type="button" data-jz-open="feedback">意见反馈</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="jz-section" id="jz-faq" style="background:#fff;border-top:1px solid var(--jz-line)">
+  <div class="jz-shell">
+    <div class="jz-section-head">
+      <h2>常见问题 · 关于官方网站的一切</h2>
+      <p>投稿、版权、播放、账号与榜单规则，点击展开查看</p>
+    </div>
+    <div class="jz-faq">
+      <details>
+        <summary>如何向 91九色丨蝌蚪丨老版入口 官方网站投稿？</summary>
+        <p>点击页面中的「投稿入口」按钮，填写作品标题、简介、标签与成片链接即可。作品需为原创或已取得完整授权，分辨率建议 1080P 以上。提交后 7 个工作日内会收到评审反馈，通过后进入排期。</p>
+      </details>
+      <details>
+        <summary>「老版入口」里的内容会一直保留吗？</summary>
+        <p>会。老版入口是官方网站的长期保留区，集中呈现品牌历史影像与初代界面。我们每季度做一次高清修复更新，原始版本与修复版本同时保留，确保用户随时可以回看与对比。</p>
+      </details>
+      <details>
+        <summary>播放卡顿怎么办？</summary>
+        <p>建议优先检查网络环境，播放器会自动根据带宽调整清晰度。若仍有卡顿，可切换至标清线路或稍后重试。2026 年 10 月的线路升级后，1080P 平均缓冲时间已缩短约三成。</p>
+      </details>
+      <details>
+        <summary>内容评审与榜单的规则是否公开？</summary>
+        <p>公开。官网设有评审口径说明页，分别说明精选内容、榜单与专题的评定标准，并附申诉流程。我们不接受付费买榜，合作内容会明确标注，避免与编辑推荐混淆。</p>
+      </details>
+      <details>
+        <summary>创作者扶持计划怎么报名？</summary>
+        <p>每季度开放一次报名，需提交一支原创代表作与三个月创作计划。入选者可获得拍摄补贴、剪辑指导与首页曝光位。最近一期于 2026 年 11 月 10 日开放，12 月初公示结果。</p>
+      </details>
+      <details>
+        <summary>发现侵权或违规内容如何举报？</summary>
+        <p>点击页面中的「意见反馈」按钮，选择举报类型并填写具体链接与说明。我们会在 3 个工作日内核实处理，涉及版权争议的内容将先行下架并通知双方举证。</p>
+      </details>
+      <details>
+        <summary>是否支持下载离线观看？</summary>
+        <p>部分官方发布与获得授权的作品支持下载，下载入口在播放页内。为保护创作者权益，未开放下载的作品仅支持在线观看，请理解并尊重版权约定。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="jz-footer">
+  <div class="jz-shell">
+    <div class="jz-footer-grid">
+      <div>
+        <div class="jz-footer-logo">
+          <span class="jz-logo-mark"><span></span></span>
+          <b>91九色丨蝌蚪丨老版入口</b>
+        </div>
+        <p>91九色丨蝌蚪丨老版入口 官方网站 · 版权所有。以原创高清视频为核心的企业品牌内容平台，坚持正版、尊重创作者、持续运营，为行业与用户提供值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h3>站内导航</h3>
+        <ul>
+          <li><a href="#jz-about">关于品牌与关键词解析</a></li>
+          <li><a href="#jz-feature">本周精选内容</a></li>
+          <li><a href="#jz-topics">专题企划</a></li>
+          <li><a href="#jz-authors">创作者矩阵</a></li>
+          <li><a href="#jz-board">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>服务与支持</h3>
+        <ul>
+          <li><a href="#jz-log">企业动态与更新日志</a></li>
+          <li><a href="#jz-partners">合作品牌</a></li>
+          <li><a href="#jz-faq">常见问题 FAQ</a></li>
+          <li><button class="jz-author-more" type="button" data-jz-open="submit">投稿入口</button></li>
+          <li><button class="jz-author-more" type="button" data-jz-open="feedback">意见反馈</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jz-footer-bottom">
+      <span>© 2026 91九色丨蝌蚪丨老版入口 官方网站 · 保留所有权利</span>
+      <span>持续运营中 · 原创内容受版权保护 · 未经授权禁止转载</span>
+    </div>
+  </div>
+</footer>
+
+<button class="jz-top" id="jzTop" type="button" aria-label="回到顶部">↑</button>
+
+<!-- ===== 弹窗 ===== -->
+<div class="jz-modal-mask" id="jzModalMask" role="dialog" aria-modal="true" aria-labelledby="jzModalTitle">
+  <div class="jz-modal" id="jzModalBody">
+    <button class="jz-modal-x" type="button" id="jzModalX" aria-label="关闭">✕</button>
+    <div id="jzModalContent"></div>
+  </div>
+</div>
+
+<div class="jz-toast" id="jzToast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+  var KEY = "91九色丨蝌蚪丨老版入口";
+
+  function $(sel, root){ return (root || document).querySelector(sel); }
+  function $$(sel, root){ return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
+
+  /* ---------- Toast ---------- */
+  var toastEl = $("#jzToast");
+  var toastTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add("on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("on"); }, 2200);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = $("#jzBurger");
+  var panel = $("#jzMobilePanel");
+  burger.addEventListener("click", function(){
+    var open = panel.classList.toggle("on");
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+    burger.textContent = open ? "✕" : "☰";
+  });
+  $$("a", panel).forEach(function(a){
+    a.addEventListener("click", function(){
+      panel.classList.remove("on");
+      burger.setAttribute("aria-expanded", "false");
+      burger.textContent = "☰";
+    });
+  });
+
+  /* ---------- 搜索提示 ---------- */
+  var searchIndex = [
+    {t:"老版入口·十年之后 纪录长片", k:"老版入口 经典 修复 品牌故事"},
+    {t:"蝌蚪成长记录：同一条街三年", k:"蝌蚪 成长 日常记录 合拍"},
+    {t:"九色分区选片指南", k:"九色 选片 指南 经验分享"},
+    {t:"城市探索：老电影院最后一晚", k:"城市探索 在地文化 环境音"},
+    {t:"创作幕后：两分钟短片的剪辑", k:"创作幕后 教程 剪辑 调色"},
+    {t:"深度访谈：影像修复与尊重", k:"人物访谈 修复 品牌故事"},
+    {t:"创作者：林知远 / 周未迟 / 许城", k:"创作者 作者 矩阵"},
+    {t:"专题企划与榜单规则", k:"专题 榜单 评审 规则 FAQ"}
+  ];
+
+  function bindSearch(input, box){
+    if(!input || !box) return;
+    function render(q){
+      q = (q || "").trim().toLowerCase();
+      if(!q){ box.classList.remove("on"); box.innerHTML = ""; return; }
+      var hits = searchIndex.filter(function(item){
+        return (item.t + " " + item.k).toLowerCase().indexOf(q) > -1;
+      }).slice(0, 5);
+      box.innerHTML = hits.length
+        ? hits.map(function(h){ return "<p>" + h.t + "</p>"; }).join("")
+        : "<p>没有匹配结果，试试「蝌蚪」「专题」「创作者」</p>";
+      box.classList.add("on");
+    }
+    input.addEventListener("input", function(){ render(input.value); });
+    input.addEventListener("focus", function(){ if(input.value.trim()) render(input.value); });
+    input.addEventListener("keydown", function(e){
+      if(e.key === "Enter"){
+        var q = input.value.trim();
+        toast(q ? "已按「" + q + "」在站内检索内容" : "请输入关键词后再搜索");
+        render(q);
+      }
+    });
+    box.addEventListener("click", function(e){
+      var p = e.target.closest("p");
+      if(!p) return;
+      input.value = p.textContent;
+      box.classList.remove("on");
+      toast("已定位到相关内容：" + p.textContent);
+    });
+  }
+  bindSearch($("#jzSearchInput"), $("#jzSearchHint"));
+  bindSearch($("#jzSearchInputM"), $("#jzSearchHintM"));
+  $("#jzSearchBtn").addEventListener("click", function(){
+    var v = $("#jzSearchInput").value.trim();
+    toast(v ? "正在检索「" + v + "」" : "请输入关键词后再搜索");
+  });
+  $("#jzSearchBtnM").addEventListener("click", function(){
+    var v = $("#jzSearchInputM").value.trim();
+    toast(v ? "正在检索「" + v + "」" : "请输入关键词后再搜索");
+  });
+  document.addEventListener("click", function(e){
+    if(!e.target.closest(".jz-search")){
+      $$(".jz-search-hint").forEach(function(b){ b.classList.remove("on"); });
+    }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  $$("[data-jz-like]").forEach(function(btn){
+    var numEl = btn.querySelector(".jz-num");
+    var base = numEl ? parseInt(numEl.textContent.replace(/[^0-9]/g, ""), 10) || 0 : 0;
+    var on = false;
+    btn.addEventListener("click", function(){
+      on = !on;
+      btn.classList.toggle("on", on);
+      if(numEl) numEl.textContent = (base + (on ? 1 : 0)).toLocaleString("en-US");
+      btn.childNodes[0].nodeValue = on ? "♥ 已赞 " : "♡ 点赞 ";
+      toast(on ? "已点赞，感谢支持原创内容" : "已取消点赞");
+    });
+  });
+  $$("[data-jz-save]").forEach(function(btn){
+    var on = false;
+    btn.addEventListener("click", function(){
+      on = !on;
+      btn.classList.toggle("saved", on);
+      btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+      toast(on ? "已加入收藏夹" : "已移出收藏夹");
+    });
+  });
+
+  /* ---------- 复制链接 ---------- */
+  $$("[data-jz-copy]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var title = btn.getAttribute("data-jz-title") || KEY;
+      var link = "#jz-feature";
+      var text = title + " · " + KEY + " 官方网站站内链接 " + link;
+      function fallback(){
+        try{
+          var ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand("copy");
+          document.body.removeChild(ta);
+          toast("链接已复制，可分享给同好");
+        }catch(err){
+          toast("复制失败，请手动选择链接");
+        }
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){
+          toast("链接已复制，可分享给同好");
+        }).catch(fallback);
+      }else{
+        fallback();
+      }
+    });
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var mask = $("#jzModalMask");
+  var content = $("#jzModalContent");
+  function openModal(html){
+    content.innerHTML = html;
+    mask.classList.add("on");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal(){
+    mask.classList.remove("on");
+    content.innerHTML = "";
+    document.body.style.overflow = "";
+  }
+  $("#jzModalX").addEventListener("click", closeModal);
+  mask.addEventListener("click", function(e){ if(e.target === mask) closeModal(); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeModal(); });
+
+  var modalMap = {
+    submit: function(){
+      openModal(
+        '<h3>投稿入口</h3><p class="jz-modal-sub">向 ' + KEY + ' 官方网站提交原创作品，7 个工作日内反馈</p>' +
+        '<label>作品标题</label><input type="text" placeholder="例如：蝌蚪成长记录 · 我家的窗">' +
+        '<label>作者昵称</label><input type="text" placeholder="请输入创作者昵称">' +
+        '<label>内容分区</label><input type="text" placeholder="日常记录 / 经验分享 / 深度访谈 …">' +
+        '<label>作品简介</label><textarea rows="3" placeholder="简要说明拍摄背景、时长与素材来源"></textarea>' +
+        '<label>成片链接</label><input type="text" placeholder="请填写可访问的作品链接">' +
+        '<div class="jz-modal-foot"><button class="jz-btn jz-btn-ghost" type="button" id="jzModalCancel" style="color:#26364f;border-color:#dfe5ee">取消</button>' +
+        '<button class="jz-btn jz-btn-primary" type="button" id="jzSubmitOK">提交评审</button></div>'
+      );
+      $("#jzModalCancel").addEventListener("click", closeModal);
+      $("#jzSubmitOK").addEventListener("click", function(){
+        closeModal();
+        toast("投稿已提交，评审结果将站内通知");
+      });
+    },
+    feedback: function(){
+      openModal(
+        '<h3>意见反馈与举报</h3><p class="jz-modal-sub">帮助 ' + KEY + ' 官方网站变得更好，3 个工作日内核实</p>' +
+        '<label>反馈类型</label><input type="text" placeholder="播放问题 / 内容举报 / 功能建议">' +
+        '<label>联系方式</label><input type="text" placeholder="邮箱或站内昵称（选填）">' +
+        '<label>详细说明</label><textarea rows="4" placeholder="请描述具体情况，如涉及内容请附作品标题"></textarea>' +
+        '<div class="jz-modal-foot"><button class="jz-btn jz-btn-ghost" type="button" id="jzModalCancel2" style="color:#26364f;border-color:#dfe5ee">取消</button>' +
+        '<button class="jz-btn jz-btn-primary" type="button" id="jzFeedbackOK">提交反馈</button></div>'
+      );
+      $("#jzModalCancel2").addEventListener("click", closeModal);
+      $("#jzFeedbackOK").addEventListener("click", function(){
+        closeModal();
+        toast("反馈已收到，我们会尽快核实处理");
+      });
+    }
+  };
+
+  $$("[data-jz-open]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var key = btn.getAttribute("data-jz-open");
+      if(modalMap[key]) modalMap[key]();
+    });
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  $$("[data-jz-author]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var parts = btn.getAttribute("data-jz-author").split("|");
+      openModal(
+        '<h3>' + parts[0] + '</h3>' +
+        '<p class="jz-modal-sub">' + parts[1] + ' · 签约原创创作者</p>' +
+        '<p style="font-size:13.6px;color:#45566e;line-height:1.8">' + parts[2] + '</p>' +
+        '<div class="jz-modal-foot"><button class="jz-btn jz-btn-ghost" type="button" id="jzAuthorClose" style="color:#26364f;border-color:#dfe5ee">关闭</button></div>'
+      );
+      $("#jzAuthorClose").addEventListener("click", closeModal);
+    });
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = $("#jzTop");
+  window.addEventListener("scroll", function(){
+    topBtn.classList.toggle("on", window.scrollY > 520);
+  }, {passive:true});
+  topBtn.addEventListener("click", function(){
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+
+  /* ---------- 数字滚动 ---------- */
+  function animateCount(el){
+    var target = parseInt(el.getAttribute("data-jz-count"), 10);
+    if(isNaN(target)) return;
+    var suffix = el.querySelector("em") ? el.querySelector("em").outerHTML : "";
+    var start = performance.now();
+    var dur = 1100;
+    function step(now){
+      var p = Math.min((now - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(target * eased);
+      el.innerHTML = val.toLocaleString("en-US") + suffix;
+      if(p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  var counted = false;
+  function checkCount(){
+    if(counted) return;
+    var heroStats = $(".jz-hero-stats");
+    if(!heroStats) return;
+    var rect = heroStats.getBoundingClientRect();
+    if(rect.top < window.innerHeight && rect.bottom > 0){
+      counted = true;
+      $$("[data-jz-count]").forEach(animateCount);
+    }
+  }
+  window.addEventListener("scroll", checkCount, {passive:true});
+  checkCount();
+})();
+</script>
+</body>
+  </html>
